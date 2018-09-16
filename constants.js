@@ -1,7 +1,7 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'MOBILE' | 'WEB_CLIENT' | 'FOUNDATIONS' | 'SERVERS' |
+export type TrackId = 'MOBILE' | 'WEB_CLIENT' | 'CMS' | 'SERVERS' |
   'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
   'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
   'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
@@ -73,7 +73,7 @@ export type Track = {
 type Tracks = {|
   'MOBILE': Track,
   'WEB_CLIENT': Track,
-  'FOUNDATIONS': Track,
+  'CMS': Track,
   'SERVERS': Track,
   'PROJECT_MANAGEMENT': Track,
   'COMMUNICATION': Track,
@@ -93,7 +93,7 @@ export const tracks: Tracks = {
   "MOBILE": {
     "displayName": "Mobile",
     "category": "A",
-    "description": "Develops expertise in native mobile platform engineering, such as iOS or Android",
+    "description": "Develops expertise in mobile platform engineering, such as iOS, Android, or React Native",
     "milestones": [{
       "summary": "Works effectively within established iOS or Android architectures, following current best practices",
       "signals": [
@@ -122,7 +122,7 @@ export const tracks: Tracks = {
       "summary": "Designs major new features and demonstrates a nuanced understanding of mobile platform constraints",
       "signals": [
         "Implements complex features with a large product surface area",
-        "Works effectively with  Android reactive programming framework",
+        "Works effectively with a reactive programming framework",
         "Adds support for new iOS features after a major iOS version upgrade",
       ],
       "examples": [
@@ -135,12 +135,12 @@ export const tracks: Tracks = {
       "signals": [
         "Pioneers architecture migration strategies that reduce programmer burden",
         "Fixes subtle memory management issues",
-        "Implements interactive dismissals that bring delight",
+        "Implements interactive UX that bring delight",
       ],
       "examples": [
         "Upgraded CocoaPods to a new major version",
         "Designed architecture for fetching and rendering stream items",
-        "Migrated Android persistance layer to reactive programming",
+        "Migrated persistance layer to reactive programming",
       ],
     }, {
       "summary": "Is an industry-leading expert in mobile engineering or sets strategic mobile direction for an eng team",
@@ -160,18 +160,18 @@ export const tracks: Tracks = {
   "WEB_CLIENT": {
     "displayName": "Web client",
     "category": "A",
-    "description": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript",
+    "description": "Develops expertise in web client technologies, such as React, Angular, or Vue",
     "milestones": [{
       "summary": "Works effectively within established web client architectures, following current best practices",
       "signals": [
         "Makes minor modifications to existing screens",
-        "Fixes simple design quality issues",
+        "Builds basic components that work well with each other",
         "Uses CSS appropriately, following style guide",
       ],
       "examples": [
         "Implemented sticky footer on the post page",
         "Hooked up the action to dismiss a post from a stream",
-        "Built PaymentHistory screen using ResponseScreen",
+        "Built a PaymentHistory component that has basic interactions and works within a larger application",
       ],
     }, {
       "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
@@ -193,9 +193,9 @@ export const tracks: Tracks = {
         "Acts a caretaker for all of web client code",
       ],
       "examples": [
-        "Designed font loading strategy for Medium",
-        "Researched utility of service workers for Medium",
-        "Designed and implemented ResponseScreen",
+        "Stood up Redux (or equivalent) and kept it from growing too complex",
+        "Implemented a client-side routing scheme",
+        "Designed and implemented ResponseScreen container",
       ],
     }, {
       "summary": "Builds complex, reusable architectures that pioneer best practices and enable engineers to work more effectively",
@@ -205,9 +205,9 @@ export const tracks: Tracks = {
         "Makes architectural decisions that eliminate entire classes of bugs",
       ],
       "examples": [
-        "Designed Medium's post morpher and delta system",
-        "Implemented Medium's scrolling text over image blur",
-        "Designed and pioneered proto-based model storage",
+        "Maintained SEO in a React/Angular/Vue based website",
+        "Built a complex web application from top to bottom",
+        "Built a reusable library that can be used in multiple projects",
       ],
     }, {
       "summary": "Is an industry-leading expert in web client or sets strategic web client direction for an eng team",
@@ -218,42 +218,42 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Invented CSS in JS",
-        "Defined and drove migration strategy to Lite",
+        "Defined and drove migration strategy",
         "Implemented unidirectional data flow to completion",
       ],
     }],
   },
 
-  "FOUNDATIONS": {
-    "displayName": "Foundations",
+  "CMS": {
+    "displayName": "CMS",
     "category": "A",
-    "description": "Develops expertise in foundational systems, such as deployments, pipelines, databases and machine learning",
+    "description": "Develops expertise in front-end development and/or CMSes, such as HTML5/CSS, WordPress, and especially, Drupal",
     "milestones": [{
-      "summary": "Works effectively within established structures, following current best practices",
+      "summary": "Can assist in building CMS powered websites",
       "signals": [
-        "Writes thorough postmortems for service outages",
-        "Makes simple configuration changes to services",
-        "Performs backfills safely and effectively, without causing pages",
+        "Writes HTML and CSS that matches comps created by the design team",
+        "Sets up and maintains a local environment of the CMS",
+        "Collaborates with the design team during the design process to create well-crafted sites that are not time-consuming to build.",
       ],
       "examples": [
-        "Made safe and effective Ansible changes",
-        "Implemented new ETL pipelines based on existing ones",
-        "Resolved out of disk errors independently",
+        "Installed a WordPress plugin without breaking the site",
+        "Wrote well-factored SASS in a Drupal build",
+        "Followed a proper fork/pull model when building features",
       ],
     }, {
-      "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
+      "summary": "Sets up and maintains simple CMS projects",
       "signals": [
-        "Made minor version upgrades to technologies",
-        "Builds machine learning jobs within the ML framework",
-        "Triages service issues correctly and independently",
+        "Knows how to build reusable layouts using grid systems",
+        "Writes reusable components that speeds up front-end development",
+        "Follows testing best practices for WordPress or Drupal",
       ],
       "examples": [
-        "Upgraded NodeJS from 8.0 to 8.1.1",
-        "Built custom packages for RPMs",
-        "Improved ETL efficiency by improving Dynamo to S3 loading",
+        "Wrote unit tests for custom WordPress or Drupal modules",
+        "Delivered pixel perfect layouts",
+        "Built responsive layouts",
       ],
     }, {
-      "summary": "Designs standalone systems of moderate complexity, or major new features in existing systems",
+      "summary": "Builds and maintains complex CMS installations and manages their lifecycle",
       "signals": [
         "Acts as primary maintainer for existing critical systems",
         "Designs moderately complex systems",
@@ -265,7 +265,7 @@ export const tracks: Tracks = {
         "Designed flexible framework for writing machine learning jobs",
       ],
     }, {
-      "summary": "Builds complex, reusable architectures that pioneer best practices for other engineers, or multi-system services",
+      "summary": "",
       "signals": [
         "Designs complex projects that encompass multiple systems and technologies",
         "Demonstrates deep knowledge of foundational systems",
@@ -277,7 +277,7 @@ export const tracks: Tracks = {
         "Introduced Kinesis and pioneered streaming events pipeline",
       ],
     }, {
-      "summary": "Is an industry-leading expert in foundational engineering or sets strategic foundational direction for an eng team",
+      "summary": "Is an industry-leading expert in CMS development or sets strategic foundational direction for a team",
       "signals": [
         "Designs transformational projects in service of long-term goals",
         "Defines the strategic vision for foundational work and supporting technologies",
