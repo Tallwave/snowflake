@@ -35,3 +35,7 @@ This will put a static version of the site in `out/`.
 
 * Load initial data from a file, to improve flexibility.
 * Add restricted job title selection and validation.
+
+## How to edit data
+
+All the content is within the `constants.js` file. Modify track info, milestones, and levels. 
