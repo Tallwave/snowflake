@@ -294,29 +294,29 @@ export const tracks: Tracks = {
   "SERVERS": {
     "displayName": "Servers",
     "category": "A",
-    "description": "Develops expertise in server side engineering, using technologies such as Go, NodeJS, or Scala",
+    "description": "Develops expertise in server side engineering, using technologies such as NodeJS/Hapi, Rails, or similar",
     "milestones": [{
       "summary": "Works effectively within established server side frameworks, following current best practices",
       "signals": [
-        "Adds NodeJS endpoints using layers architecture",
-        "Adds golang endpoints using Gotham architecture",
+        "Adds NodeJS endpoints to a Hapi RESTful server",
+        "Adds route validation to a Hapi route",
         "Makes minor server changes to support client needs",
       ],
       "examples": [
-        "Added IFTTT trigger for new bookmark to medium2",
-        "Added delete audio route to Buggle",
-        "Queried a Dynamo LSI appropriately",
+        "Used Joi make sure a POST route had a proper payload",
+        "Queried a mongo database and loaded the results with async/await",
+        "Wrote unit tests for an endpoint",
       ],
     }, {
       "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
       "signals": [
         "Assesses correctness and utility of existing code and avoids blind copy-pasting",
-        "Generalizes code when appropriate",
         "Determines data needs from product requirements",
+        "Created models based on data requirements",
       ],
       "examples": [
-        "Identified need for new index on Dynamo",
-        "Acted as caretaker for routes protos",
+        "Wrote code and tests for an entire endpoint",
+        "Stood up a basic RESTful API on Hapi 17",
         "Updated Facebook API version and codebase dependencies",
       ],
     }, {
@@ -324,35 +324,35 @@ export const tracks: Tracks = {
       "signals": [
         "Acts as primary maintainer for existing critical systems",
         "Integrates third party services effectively",
-        "Writes playbooks for new service maintenance",
+        "Writes guidelines and documentation for new service maintenance",
       ],
       "examples": [
-        "Implemented Google Auth login to Medium",
+        "Implemented Google Auth login to a service",
         "Implemented payments integration with Stripe",
-        "Built Textshots server",
+        "Built and maintainted a suite of swagger documentation for an API",
       ],
     }, {
-      "summary": "Builds complex, reusable architectures that pioneer best practices for other engineers, or multi-system services",
+      "summary": "Builds complex, reusable architectures that pioneer best practices for other developers, or multi-system services",
       "signals": [
         "Delivers complex systems that achieve their goals",
         "Avoids subtle architectural mistakes when considering new systems",
         "Makes appropriate buy vs build choices",
       ],
       "examples": [
-        "Designed Medium's ranked feed architecture",
-        "Designed custom domains architecture",
-        "Created Gotham framework for creating Go services",
+        "Designed a microservice architecture",
+        "Wrangled multiple teams and SMEs from a client's organization",
+        "Created a service to deeply integrate GitHub and Basecamp",
       ],
     }, {
-      "summary": "Is an industry-leading expert in server side engineering or sets strategic server side direction for an eng team",
+      "summary": "Is an industry-leading expert in server side development or sets strategic server side direction for an dev team",
       "signals": [
         "Designs transformational projects of significant complexity and scope",
         "Makes decisions that have positive, long term, wide ranging consequences",
         "Identifies and solves systemic problems with current architecture",
       ],
       "examples": [
-        "Researched, vetted, and selected Go as Medium's statically typed language",
-        "Defined microservices architecture and medium2 migration plan",
+        "Researched, vetted, and selected Go as Tallwave's statically typed language",
+        "Defined a migration plan and oversaw a clients' transition to a new architecture",
         "Defined and implemented proprietary IP core to the company's success",
       ],
     }],
@@ -363,7 +363,7 @@ export const tracks: Tracks = {
     "category": "B",
     "description": "Delivers well-scoped programs of work that meet their goals, on time, to budget, harmoniously",
     "milestones": [{
-      "summary": "Effectively delivers individual tasks",
+      "summary": "Effectively delivers on individual tasks",
       "signals": [
         "Estimates small tasks accurately",
         "Delivers tightly-scoped projects efficiently",
