@@ -370,21 +370,21 @@ export const tracks: Tracks = {
         "Writes effective technical specs outlining approach",
       ],
       "examples": [
-        "Wrote the technical spec for featured post images",
-        "Delivered stream item support for email digests",
-        "Delivered payment history dashboard",
+        "Provided solid feedback and analysis on an issue in the tracker",
+        "Implemented a well-scoped feature on time",
+        "Appropriately communicated when a specific item was going to be late",
       ],
     }, {
-      "summary": "Effectively delivers small personal projects",
+      "summary": "Effectively delivers small projects",
       "signals": [
         "Performs research and considers alternative approaches",
         "Balances pragmatism and polish appropriately",
         "Defines and hits interim milestones",
       ],
       "examples": [
-        "Delivered promo editor",
+        "Delivered dashboard widgets that integrate with state",
         "Delivered audio uploading for web client",
-        "Executed the recommends to claps backfill",
+        "Refactored a complex function into something simpler",
       ],
     }, {
       "summary": "Effectively delivers projects through a small team",
@@ -406,21 +406,21 @@ export const tracks: Tracks = {
         "Leverages recognition of repeated project patterns",
       ],
       "examples": [
-        "Oversaw technical delivery of Hightower",
-        "Managed infrastructure migration to VPC",
-        "Involved marketing, legal, and appropriate functions at project start",
+        "Oversaw technical delivery of a medium-large client project",
+        "Managed infrastructure migration to a new platform",
+        "Involved client stakeholders, designers, and digital personnel at project start",
       ],
     }, {
       "summary": "Manages major company pushes delivered by multiple teams",
       "signals": [
         "Considers external constraints and business objectives when planning",
         "Leads teams of teams, and coordinates effective cross-functional collaboration",
-        "Owns a key company metric",
+        "Owns a key company or client metric",
       ],
       "examples": [
-        "Managed technical migration to SOA",
-        "Lead technical delivery of 10/7",
-        "Delivered multi-month engineering project on time",
+        "Managed large technical migration to a new service or platform",
+        "Lead technical delivery, launch, and handoff of a multi-site CMS project",
+        "Delivered multi-month development project on time",
       ],
     }],
   },
