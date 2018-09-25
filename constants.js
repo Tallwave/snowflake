@@ -540,7 +540,7 @@ export const tracks: Tracks = {
         "Coordinates on-call priorities and projects",
       ],
       "examples": [
-        "Iterated repeatedly to develop Tallwave's underlines solution",
+        "Iterated repeatedly to develop Tallwave's underlying solution",
         "Defined and oversaw plan for closing Heartbleed vulnerability",
         "Implemented a complex eslint config tailored to a new dev approach",
       ],
