@@ -504,9 +504,9 @@ export const tracks: Tracks = {
         "Writes clear comments and documentation",
       ],
       "examples": [
-        "Caught a bug on Hatch before it went live",
-        "Landed non-trivial PR with no caretaker comments",
-        "Wrote hermetic tests for the happy and sad cases",
+        "Caught a bug on a project before it went live",
+        "Landed non-trivial PR without multiple rounds of extensive feedback",
+        "Wrote non-brittle unit tests",
       ],
     }, {
       "summary": "Increases the robustness and reliability of codebases, and devotes time to polishing products and systems",
@@ -517,7 +517,7 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Requested tests for a PR when acting as reviewer",
-        "Reduced the number of zelda fitzgerald exceptions",
+        "Improved code coverage substantially on a project",
         "Fixed a TODO for someone else in the codebase",
       ],
     }, {
@@ -528,21 +528,21 @@ export const tracks: Tracks = {
         "Adds tooling to improve code quality",
       ],
       "examples": [
-        "Improved PRB to run the same volume of tests faster",
-        "Simplified hermetic test data modification",
+        "Implmented a robust dummy data solution for testing",
         "Created fixture system for visual quality",
+        "Implemented a CI system to generate reports on code quality",
       ],
     }, {
       "summary": "Advocates for and models great quality with proactive actions, and tackles difficult and subtle system issues",
       "signals": [
         "Builds systems so as to eliminate entire classes of programmer error",
-        "Focuses the team on quality with regular reminders",
-        "Coordinates Watch priorities and projects",
+        "Focuses the team on quality with regular reminders without being annoying",
+        "Coordinates on-call priorities and projects",
       ],
       "examples": [
-        "Added code coverage reporting to iOS CI pipeline",
-        "Iterated repeatedly to develop Medium's underlines solution",
+        "Iterated repeatedly to develop Tallwave's underlines solution",
         "Defined and oversaw plan for closing Heartbleed vulnerability",
+        "Implemented a complex eslint config tailored to a new dev approach",
       ],
     }, {
       "summary": "Enables and encourages the entire organization to make quality a central part of the development process",
@@ -552,9 +552,9 @@ export const tracks: Tracks = {
         "Secures time and resources from execs to support great quality",
       ],
       "examples": [
-        "Negotiated resources for Fix-It week with exec team",
-        "Instituted and ensured success of a 20% time policy",
-        "Started The Watch",
+        "Negotiated resources for internal projects with exec team",
+        "Onboarded an internal QA team",
+        "Detailed and enforced new policies on the Guidelines",
       ],
     }],
   },
