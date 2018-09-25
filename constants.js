@@ -437,9 +437,9 @@ export const tracks: Tracks = {
         "Asks for help at the appropriate juncture",
       ],
       "examples": [
-        "Updated The Watch before running a backfill",
-        "Updated project status changes in Asana promptly",
-        "Gave thoughtful check-in and check-out comments",
+        "Provided insightful commentary and feedback in a design studio",
+        "Updated project status changes in GitHub promptly",
+        "Wrote an update to the Developer Guidelines",
       ],
     }, {
       "summary": "Communicates with the wider team appropriately, focusing on timeliness and good quality conversations",
@@ -450,8 +450,8 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Received and integrated critical feedback positively",
-        "Created cross-team Slack channel for payments work",
-        "Spoke to domain experts before writing spec",
+        "Created cross-team Slack channel for project work",
+        "Spoke to appropriate representatives and got buy-in before writing spec",
       ],
     }, {
       "summary": "Proactively shares information, actively solicits feedback, and facilitates communication for multiple stakeholders",
@@ -462,8 +462,8 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Directed team response effectively during outages",
-        "Gave a substantial Eng All Hands presentation on React",
-        "Gave notice of upcoming related work in Eng Briefing",
+        "Gave a substantial Dev Huddle presentation on Headless CMS",
+        "Disagreed effectively with a client and drove them to a new point of view",
       ],
     }, {
       "summary": "Communicates complex ideas skillfully and with nuance, and establishes alignment within the wider organization",
@@ -474,18 +474,18 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Lead off-site workshop on interviewing",
-        "Wrote Medium's growth framework and rationale",
-        "Aligned the entire organization around claps",
+        "Wrote Tallwave's growth framework and rationale",
+        "Aligned the entire organization around a new multi-team process",
       ],
     }, {
       "summary": "Influences outcomes at the highest level, moves beyond mere broadcasting, and sets best practices for others",
       "signals": [
         "Defines processes for clear communication for the entire team",
         "Shares the right amount of information with the right people, at the right time",
-        "Develops and delivers plans to execs, the board, and outside investors",
+        "Develops and delivers plans to execs, c-suite members at client organizations, and board members",
       ],
       "examples": [
-        "Organized half year check-in company offsite",
+        "Organized and managed communications around a Client Summit",
         "Created the communication plan for a large organizational change",
         "Presented to the board about key company metrics and projects",
       ],
