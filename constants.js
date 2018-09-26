@@ -696,7 +696,7 @@ export const tracks: Tracks = {
   "ORG_DESIGN": {
     "displayName": "Org design",
     "category": "C",
-    "description": "Defines processes and structures that enables the strong growth and execution of a diverse eng organization",
+    "description": "Defines processes and structures that enables the strong growth and execution of a diverse dev team",
     "milestones": [{
       "summary": "Respects and participates in processes, giving meaningful feedback to help the organization improve",
       "signals": [
@@ -705,7 +705,7 @@ export const tracks: Tracks = {
         "Actively participates and makes contributions within organizational processes",
       ],
       "examples": [
-        "Facilitated effective tactical meeting with empathy",
+        "Lead an effective tactical meeting with empathy",
         "Explained tactical meeting format to a new hire",
         "Provided feedback on sprint planning meeting",
       ],
@@ -717,9 +717,9 @@ export const tracks: Tracks = {
         "Advocates for improved diversity and inclusion, and proposes ideas to help",
       ],
       "examples": [
-        "Defined Frankenmeeting structure for small team",
-        "Improved Watch on-call rotation scheduling",
-        "Defined standard channels for inter-team communication",
+        "Defined a recurring meeting structure for a small client project",
+        "Improved code review process on a small project",
+        "Defined standard channels for communication with contractors",
       ],
     }, {
       "summary": "Develops processes to solve ongoing organizational problems",
@@ -729,9 +729,9 @@ export const tracks: Tracks = {
         "Reallocates resources to meet organizational needs",
       ],
       "examples": [
-        "Developed baseline team templates for consistency",
-        "Created bug-rotation program to address ongoing quality issues",
-        "Defined Guilds manifesto and charter",
+        "Coordinated with team members plans to evangelize our stuff to the community",
+        "Collaborated with the sales team to improve the sales process",
+        "Created documentation around creating TRDs and shared them with the company",
       ],
     }, {
       "summary": "Thinks deeply about organizational issues and identifies hidden dynamics that contribute to them",
@@ -741,9 +741,9 @@ export const tracks: Tracks = {
         "Ties abstract concerns to concrete organizational actions or norms",
       ],
       "examples": [
-        "Connected mobile recruiting difficulties to focus on excellence",
-        "Raised leadership level change discrepancies",
-        "Analyzed the hiring rubric for false negative potential",
+        "Identified recruiting difficulties and worked with HR to shorten time to hire",
+        "Wrote and pitched proposal to bring a medium-significant change to the organization",
+        "Tailored Snowflake to use as a hiring tool",
       ],
     }, {
       "summary": "Leads initiatives to address issues stemming from hidden dynamics and company norms",
@@ -753,7 +753,7 @@ export const tracks: Tracks = {
         "Leads planning and communication for reorgs",
       ],
       "examples": [
-        "Lead efforts to increase number of mobile engineers",
+        "Lead efforts to increase number of mobile developers",
         "Directed resources to meaningfully improve diversity at all levels",
         "Built the growth framework rubric",
       ],
