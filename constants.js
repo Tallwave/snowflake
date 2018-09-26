@@ -566,21 +566,21 @@ export const tracks: Tracks = {
     "milestones": [{
       "summary": "Identifies opportunities for organizational change or product improvements",
       "signals": [
-        "Writes Hatch posts about improvement opportunities",
+        "Writes thoughtful Basecamp messages about improvement opportunities",
         "Raises meaningful tensions in tactical meetings",
-        "Asks leadership team probing questions at FAM",
+        "Asks leadership team probing questions during all-hands or other meetings",
       ],
       "examples": [
-        "Wrote about problems with TTR on Hatch",
-        "Wrote about content policy problems on Hatch",
-        "Reported a site issue in Github",
+        "Wrote about problems with GitHub on Basecamp",
+        "Wrote about content policy problems on Basecamp",
+        "Reported a site issue in GitHub",
       ],
     }, {
       "summary": "Causes change to positively impact a few individuals or minor improvement to an existing product or service",
       "signals": [
         "Picks bugs off the backlog proactively when blocked elsewhere",
         "Makes design quality improvements unprompted",
-        "Takes on trust and safety tasks proactively when blocked elsewhere",
+        "Takes on Guidelines tasks proactively when blocked elsewhere",
       ],
       "examples": [
         "Advocated on own behalf for a change in role",
@@ -596,20 +596,20 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Defined style guide to resolve style arguments",
-        "Proposed and implemented at-mentions prototype",
-        "Implemented video for Android independently, unprompted",
+        "Proposed and implemented a prototype to demonstrate a concept",
+        "Recognized a warning sign on a client project and dealt with it effectively",
       ],
     }, {
-      "summary": "Effects change that has a substantial positive impact on the engineering organization or a major product impact",
+      "summary": "Effects change that has a substantial positive impact on the development organization or a major product impact",
       "signals": [
         "Champions and pioneers new technologies to solve new classes of problem",
         "Exemplifies grit and determination in the face of persistent obstacles",
         "Instigates major new features, services, or architectures",
       ],
       "examples": [
-        "Created the interviewing rubric and booklet",
-        "Implemented and secured support for native login",
-        "Migrated medium2 to mono repo and bazel",
+        "Created the interviewing guide and toolkit",
+        "Introduced a prettier to the dev team and saw its adoption through",
+        "Built a boilerplate/template app for Hapi that includes things like auth, plugins, and directory organization",
       ],
     }, {
       "summary": "Effects change that has a substantial positive impact on the whole company",
@@ -619,9 +619,9 @@ export const tracks: Tracks = {
         "Changes complex organizational processes",
       ],
       "examples": [
-        "Migrated the organization from Holacracy",
-        "Built Medium Android prototype and convinced execs to fund it",
-        "Convinced leadership and engineering org to move to Medium Lite architecture",
+        "Piloted a new process for team collaboration that made the team better",
+        "Made substantial updates to the sales process to set the implementation team up for best chances for success",
+        "Created new processes for the design team to integrate with the development workflow",
       ],
     }],
   },
