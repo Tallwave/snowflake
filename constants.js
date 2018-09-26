@@ -189,7 +189,7 @@ export const tracks: Tracks = {
       "summary": "Designs major new features and demonstrates a nuanced understanding of browser constraints",
       "signals": [
         "Provides useful design feedback and suggests feasible alternatives",
-        "Performs systemic tasks to significantly minimise bundle size",
+        "Performs systemic tasks to significantly minimize bundle size",
         "Acts a caretaker for all of web client code",
       ],
       "examples": [
@@ -528,8 +528,8 @@ export const tracks: Tracks = {
         "Adds tooling to improve code quality",
       ],
       "examples": [
-        "Implmented a robust dummy data solution for testing",
-        "Created fixture system for visual quality",
+        "Implemented a robust dummy data solution for testing",
+        "Created fixture system for testing frameworks",
         "Implemented a CI system to generate reports on code quality",
       ],
     }, {
@@ -785,7 +785,7 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Coordinated a small celebration for a project launch",
-        "Connected tedious A|B testing project with overall company goals",
+        "Connected tedious A/B testing project with overall company goals",
         "Used a Dev Huddle to share new wins from a project and lessons learned and mistakes to avoid",
       ],
     }, {
@@ -830,7 +830,7 @@ export const tracks: Tracks = {
   "ACCOMPLISHMENT": {
     "displayName": "Accomplishment",
     "category": "C",
-    "description": "Inspires day to day excellence, maximises potential and effectively resolves performance issues with compassion",
+    "description": "Inspires day to day excellence, maximizes potential and effectively resolves performance issues with compassion",
     "milestones": [{
       "summary": "Helps individuals identify blockers and helps them identify next steps for resolution",
       "signals": [
@@ -839,7 +839,7 @@ export const tracks: Tracks = {
         "Talks through problems non-judgmentally",
       ],
       "examples": [
-        "Completed training on diagnosing problems",
+        "Identified a problem (technical or organizational) and suggested a feasible solution",
         "Unblocked a group member",
         "Reinforces and affirms positive feedback for good work",
       ],
@@ -847,11 +847,11 @@ export const tracks: Tracks = {
       "summary": "Helps individuals resolve difficult performance issues, with insight, compassion, and skill",
       "signals": [
         "Gathers context outside the immediate problem",
-        "Recognizes issues within local environment and suggests change",
+        "Recognizes issues within personal environment and suggests change",
         "Works to encourage ownership of actions and responsibilities",
       ],
       "examples": [
-        "Completed training on decision making",
+        "Completed Crucial Conversations training",
         "Convinced a group member to solve a problem directly, rather than doing it for them",
         "Gave honest feedback about poor performance, with compassion",
       ],
@@ -865,7 +865,7 @@ export const tracks: Tracks = {
       "examples": [
         "Worked with group member to address persistent communication failures",
         "Arranged a transfer to another team, resulting in improved performance",
-        "Managed group member closely to maximise chances of PIP success",
+        "Managed group member closely to maximize chances of PIP success",
       ],
     }, {
       "summary": "Mediates escalated situations, empowers underperforming teams, and resolves conflict",
@@ -907,13 +907,13 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Acted as an onboarding buddy",
-        "Paired with an engineer to help them with an unfamiliar area",
-        "Helped a colleague understand their feelings",
+        "Paired with a developer to help them with an unfamiliar area",
+        "Avoids siloing information when it can be usefully shared with others",
       ],
     }, {
       "summary": "Mentors people proactively, and guides people to realizations rather than providing the answer",
       "signals": [
-        "Takes time to explain concepts and best practices",
+        "Takes time to explain concepts and best practices, and why we do them",
         "Asks questions to illuminate concepts, rather than stating them",
         "Allows others to lead efforts when it will help their development",
       ],
@@ -923,40 +923,40 @@ export const tracks: Tracks = {
         "Lead from behind to support someone new to a leadership role",
       ],
     }, {
-      "summary": "Teaches small groups of engineers and contributes to Medium's shared knowledge base",
+      "summary": "Teaches small groups of developers and contributes to Tallwave's shared knowledge base",
       "signals": [
-        "Avoids siloing information when it can be usefully shared with others",
-        "Works to increase the bus factor of systems",
+        "Works to avoid single point of failure from a project and process",
         "Finds tools that work best for a team member's personality",
+        "Finds specific actions that team members can take to improve their skillsets",
       ],
       "examples": [
-        "Gave a brown bag presentation on payments",
-        "Wrote Hatch post on avoiding RDS backfill issues",
-        "Wrote Medium-U content module",
+        "Gave a presentation on payment systems and how to implement them",
+        "Wrote a Guidelines post on mitigating DDOS attacks on an AWS hosted site",
+        "Walked a team member through a Udemy course and checked in regularly to gauge progress",
       ],
     }, {
       "summary": "Encourages people to mentor each other, and creates ways for them to do so",
       "signals": [
         "Defines an entire curriculum for a discipline",
-        "Draws positive attention to well-modeled mentor and teaching behaviours",
-        "Creates brown bag series and lines up speakers",
+        "Draws positive attention to well-modeled mentor and teaching behaviors",
+        "Creates detailed documentation for how an entire service or architecture was developed and what to learn from it",
       ],
       "examples": [
-        "Created and lead Medium's Women in Eng group",
-        "Organized an Eng All Hands with an outside speaker",
-        "Designed and taught web client guild curriculum",
+        "Created and lead an internal Women in Dev group",
+        "Organized a series of topics to discuss in a Dev Huddle with an outside speaker",
+        "Designed a course on complex server side topics and taught it to interns",
       ],
     }, {
       "summary": "Instills and promotes a culture of learning and development within the team",
       "signals": [
-        "Sets incentive structures to recognise and reward mentorship",
+        "Sets incentive structures to recognize and reward mentorship",
         "Empowers team members to develop themselves",
         "Role models productive and healthy mentor relationships",
       ],
       "examples": [
-        "Instituted the professional education budget for engineers",
+        "Instituted the professional education budget for developers",
         "Mentored mentors",
-        "Started the eng advisor program and lined up external mentors",
+        "Started an advisor program and lined up external mentors",
       ],
     }],
   },
