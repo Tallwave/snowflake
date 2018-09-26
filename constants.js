@@ -768,7 +768,7 @@ export const tracks: Tracks = {
       "summary": "Uses tools and processes to help ensure colleagues are healthy and happy",
       "signals": [
         "Keeps confidences unless legally or morally obliged to do otherwise",
-        "Applies the reasonable person principle to others",
+        "Assumes good intent when dealing with 'difficult' people",
         "Avoids blame and focuses on positive change",
       ],
       "examples": [
@@ -786,7 +786,7 @@ export const tracks: Tracks = {
       "examples": [
         "Coordinated a small celebration for a project launch",
         "Connected tedious A|B testing project with overall company goals",
-        "Noted a team without a recent win and suggested some easy quick wins",
+        "Used a Dev Huddle to share new wins from a project and lessons learned and mistakes to avoid",
       ],
     }, {
       "summary": "Manages expectations across peers, leads in the org, promotes calm, and prevents consensus building",
@@ -796,7 +796,7 @@ export const tracks: Tracks = {
         "Helps group members approach problems with curiosity",
       ],
       "examples": [
-        "Completed training on transference and counter transference",
+        "Worked closely with a peer or direct report to improve a performance issue",
         "Completed training on compromise and negotiation techniques",
         "Reframed a problem as a challenge, instead of a barrier, when appropriate",
       ],
@@ -808,7 +808,7 @@ export const tracks: Tracks = {
         "Tracks team retention actively and proposes solutions to strengthen it",
       ],
       "examples": [
-        "Relieved org tension around product direction by providing extra context",
+        "Relieved org tension around company direction by providing extra context",
         "Encouraged group members to focus on what they can control",
         "Guided people through complex organizational change",
       ],
@@ -816,12 +816,12 @@ export const tracks: Tracks = {
       "summary": "Manages narratives, channels negativity into inspiration and motivation, and protects the entire team",
       "signals": [
         "Recognizes and points out narratives when appropriate",
-        "Works to reshape narratives from victimization to ownership",
+        "Acts as an inspiration for the team even when under pressure and stress",
         "Increases the psychological safety of the entire team",
       ],
       "examples": [
         "Converted group member from a problem haver to a problem solver",
-        "Challenged false narrative and redirected to compassion and empathy",
+        "Shared bad news without white-washing it, but while remaining focused on improvement and the future",
         "Cultivated and championed a culture of empathy within the entire team",
       ],
     }],
