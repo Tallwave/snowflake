@@ -634,13 +634,13 @@ export const tracks: Tracks = {
       "summary": "Gives insight into opportunities and helps identify individuals' strengths and weaknesses",
       "signals": [
         "Advocates on behalf and in defense of a group member",
-        "Shares opportunities for improvements and recognises achievements",
+        "Shares opportunities for improvements and recognizes achievements",
         "Explains appropriate available industry paths",
       ],
       "examples": [
         "Collected and delivered feedback",
         "Discussed career options and areas of interest informally",
-        "Hosted a Floodgate Academy intern",
+        "Provided insights into different career paths",
       ],
     }, {
       "summary": "Formally supports and advocates for one person and provides tools to help them solve career problems",
@@ -652,7 +652,7 @@ export const tracks: Tracks = {
       "examples": [
         "Set up and attended regular, constructive 1:1s",
         "Provided coaching on how to have difficult conversations",
-        "Taught group members the GROW model",
+        "Taught group members some of the Don't Suck at Work lessons",
       ],
     }, {
       "summary": "Inspires and retains a small group of people and actively pushes them to stretch themselves",
@@ -663,7 +663,7 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Reviewed individual group member progression every 6 weeks",
-        "Suggested appropriate group member for Tech Lead position",
+        "Suggested appropriate group member for Team Lead position",
         "Arranged a requested switch of discipline for a group member",
       ],
     }, {
@@ -675,20 +675,20 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Completed training on situational leadership",
-        "Built a resourcing plan based on company, team, and individual goals",
-        "Prevented regretted attrition with intentional, targeted intervention",
+        "Built a resourcing plan based on company, client, and individual goals",
+        "Provided a calm voice of reason during crisis and de-escalated tensions",
       ],
     }, {
-      "summary": "Supports the development of a signficant part of the engineering org, and widely viewed as a trusted advisor",
+      "summary": "Supports the development of a signficant part of the dev team, and widely viewed as a trusted advisor",
       "signals": [
         "Supports and develops senior leaders",
         "Identified leadership training opportunities for senior leadership",
         "Pushes everyone to be as good as they can be, with empathy",
       ],
       "examples": [
-        "Provided coaching to group leads",
-        "Devised Pathwise curriculum for group leads",
-        "Advocated to execs for engineer development resources and programs",
+        "Provided coaching to team leads and managers",
+        "Devised Guidelines curriculum for team leads",
+        "Advocated to execs for development training resources and programs",
       ],
     }],
   },
