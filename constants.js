@@ -1031,16 +1031,16 @@ export const tracks: Tracks = {
   "RECRUITING": {
     "displayName": "Recruiting",
     "category": "D",
-    "description": "Strengthens Medium's team by bringing in excellent staff members",
+    "description": "Strengthens Tallwave's dev team by bringing in excellent staff members",
     "milestones": [{
-      "summary": "Brings new candidates into the pipeline and understands how to evaluate candidates at Medium",
+      "summary": "Brings new candidates into the pipeline and understands how to evaluate candidates",
       "signals": [
         "Reviews existing network for hiring leads regularly",
         "Shadows interviews to gain familiarity with process",
         "Reviews current job postings regularly",
       ],
       "examples": [
-        "Completed interview calibration",
+        "Completed basic interview training",
         "Set up casual sessions to practice asking questions",
         "Referred appropriate individuals for open positions",
       ],
@@ -1052,8 +1052,8 @@ export const tracks: Tracks = {
         "Researches approaches for sourcing candidates and diversifying hiring",
       ],
       "examples": [
-        "Added observable evidence for every rating",
-        "Started a monthly brunch for candidates to meet Medium employees",
+        "Added observable evidence for every rating from an interview",
+        "Started a monthly meetup for candidates to meet Tallwave employees",
         "Tested a new service for quality and diversity of candidates",
       ],
     }, {
@@ -1061,7 +1061,7 @@ export const tracks: Tracks = {
       "signals": [
         "Teaches new interviewers how to interview with empathy",
         "Models great interview technique and feedback when shadowed",
-        "Reverse shadows trainees and helps calibrate their feedback",
+        "Reverse shadows trainees and helps calibrate their feedback to make the process better",
       ],
       "examples": [
         "Wrote new interview question which meets our question quality criteria",
@@ -1077,8 +1077,8 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Planned engineering summit on interview process and training",
-        "Organized and lead Medium's presence at a recruitment fair",
-        "Started CODE2040 internship program",
+        "Organized and lead Tallwave's presence at a recruitment fair",
+        "Started the Tallwave summer internship program",
       ],
     }, {
       "summary": "Sets recruitment strategy, invests in long-term relationships for critical roles, and recruits at scale",
