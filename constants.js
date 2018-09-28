@@ -103,8 +103,8 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Added existing button to a different iOS surface",
-        "Add follow button for publications on Android",
-        "Fetched and displayed a new stream, using existing stream item styles",
+        "Added follow button for publications on Android",
+        "Fetched data from an API, and used existing styling to render the UI for it",
       ],
     }, {
       "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
@@ -115,7 +115,7 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Upgraded SDWebImage to a new major version",
-        "Added support for rendering a new type of stream item",
+        "Added support for rendering a new and complex UITableViewCell type of item",
         "Prototyped a simple new feature quickly",
       ],
     }, {
@@ -127,7 +127,7 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Designed iOS caching strategy for offline reading",
-        "Built series reader on Android",
+        "Built Levelhead's stickers functionality on Android",
         "Informed the team about recent best practice changes and deprecations",
       ],
     }, {
@@ -183,7 +183,7 @@ export const tracks: Tracks = {
       "examples": [
         "Built credit card input component",
         "Created shared buttons template",
-        "Built modal system",
+        "Built a reusable modal system that used Render Props appropriately",
       ],
     }, {
       "summary": "Designs major new features and demonstrates a nuanced understanding of browser constraints",
@@ -315,9 +315,9 @@ export const tracks: Tracks = {
         "Created models based on data requirements",
       ],
       "examples": [
-        "Wrote code and tests for an entire endpoint",
+        "Wrote code and tests (unit and integration) for an entire endpoint",
         "Stood up a basic RESTful API on Hapi 17",
-        "Updated Facebook API version and codebase dependencies",
+        "Updated Joi version and implemented fixes for dependencies",
       ],
     }, {
       "summary": "Designs standalone systems of moderate complexity, or major new features in existing systems",
@@ -383,7 +383,7 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Delivered dashboard widgets that integrate with state",
-        "Delivered audio uploading for web client",
+        "Noted when technical debt was intentionally created and documented it appropriately",
         "Refactored a complex function into something simpler",
       ],
     }, {
@@ -444,7 +444,7 @@ export const tracks: Tracks = {
     }, {
       "summary": "Communicates with the wider team appropriately, focusing on timeliness and good quality conversations",
       "signals": [
-        "Practises active listening and suspension of attention",
+        "Practices active listening and suspension of attention",
         "Ensures stakeholders are aware of current blockers",
         "Chooses the appropriate tools for accurate and timely communication",
       ],
@@ -584,7 +584,7 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Advocated on own behalf for a change in role",
-        "Implemented flow typing for promises",
+        "Implemented flow typing on a small internal project",
         "Audited web client performance in Chrome and proposed fixes",
       ],
     }, {
@@ -710,7 +710,7 @@ export const tracks: Tracks = {
         "Provided feedback on sprint planning meeting",
       ],
     }, {
-      "summary": "Identifies opportunities to improve existing processes and makes changes that positively affect the local team",
+      "summary": "Identifies opportunities to improve existing processes and makes changes that positively affect the team",
       "signals": [
         "Defines meeting structure and cadence that meets team needs",
         "Engages in organizational systems thinking",
@@ -1107,38 +1107,38 @@ export const tracks: Tracks = {
         "Joins groups or committees outside regular duties",
       ],
       "examples": [
-        "Joined and actively participated in the web client guild",
+        "Joined and actively participated in the Culture Club",
         "Brought a small gift back from vacation for the team",
-        "Wrote entertaining and informative Prod Ops writeups on Hatch",
+        "Wrote entertaining and informative writeups on Basecamp",
       ],
     }, {
       "summary": "Steps up, builds connectedness, and takes concrete actions to promote an inclusive culture",
       "signals": [
         "Makes space for others to participate",
-        "Collaborates with other engineers outside direct responsibilities",
+        "Collaborates with other developers outside direct responsibilities",
         "Finds ways to ramp up and engage new hires quickly",
       ],
       "examples": [
-        "Created onboarding bingo",
+        "Created onboarding activities",
         "Brought shy and introverted people into a dominant conversation",
         "Volunteered as secretary for a team",
       ],
     }, {
       "summary": "Contributes to improving team relatedness, and helps build a culture of lending support",
       "signals": [
-        "Takes on additional Watch shifts at short notice",
+        "Jumps in to a critical project on short notice",
         "Pitches in to help other teams hit deadlines, without missing own deadlines",
         "Uses position to raise difficult issues on someone's behalf",
       ],
       "examples": [
-        "Lead Watch cycles with little support while still contributing to projects",
-        "Started and drove the LGBTQIA ERG",
+        "Created a program for cross-collaboration between the dev and content strategy teams",
+        "Started and drove the LGBTQIA resource group",
         "Stayed positive and improved team morale during period after layoffs",
       ],
     }, {
       "summary": "Exemplifies selflessness for the team without compromising responsibilities, and lifts everyone up",
       "signals": [
-        "Goes above and beyond on the Watch, serving the team without complaint",
+        "Is seen as an example for positivity for the team and company at large",
         "Implements concrete programs to signficantly improve team inclusivity",
         "Takes on large amounts of tedious grunt work for the team without being asked",
       ],
@@ -1155,7 +1155,7 @@ export const tracks: Tracks = {
         "Sets the tone, policy, and goals around maintaining an inclusive company",
       ],
       "examples": [
-        "Organized wine and olive tasting offsite to Napa for the whole engineering org",
+        "Turned a difficult client relationship into a partnership that strengthened their team and ours",
         "Devised, delivered and acted on findings from an engineer happiness survey",
         "Challenged and corrected exclusionary behaviour or policies",
       ],
