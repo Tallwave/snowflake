@@ -10,7 +10,7 @@ export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 export type MilestoneMap = {
   'MOBILE': Milestone,
   'WEB_CLIENT': Milestone,
-  'FOUNDATIONS': Milestone,
+  'CMS': Milestone,
   'SERVERS': Milestone,
   'PROJECT_MANAGEMENT': Milestone,
   'COMMUNICATION': Milestone,
