@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "next",
-    "export": "next build && next export",
+    "export": "next build && next export -o docs",
     "flow": "flow"
   },
   "devDependencies": {
