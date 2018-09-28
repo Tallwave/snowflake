@@ -52,7 +52,7 @@ const emptyState = (): SnowflakeAppState => {
     milestoneByTrack: {
       'MOBILE': 0,
       'WEB_CLIENT': 0,
-      'FOUNDATIONS': 0,
+      'CMS': 0,
       'SERVERS': 0,
       'PROJECT_MANAGEMENT': 0,
       'COMMUNICATION': 0,
