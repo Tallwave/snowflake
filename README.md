@@ -4,6 +4,8 @@ Snowflake is Tallwave's tool (Based on [Medium's](https://github.com/medium/snow
 about how we use this tool in our [growth framework documentation](https://medium.com/s/engineering-growth-framework).
 Our growth tool is hosted [publicly](https://snowflake.medium.com).
 
+Use it here: [https://tallwave.github.io/snowflake](https://tallwave.github.io/snowflake)
+
 ![Sample image](https://i.imgur.com/e9DYLBr.png)
 
 ## Using this
@@ -17,6 +19,8 @@ Another sticky area is if a person has done certain things at a job before Tallw
 
 Medium's policy:
 > You are free to use, change and build on this work to make it useful for your organisation. We will happily consider unencumbered code contributions to improve functionality, but as this is the actual tool we use within Medium, acceptance is likely to be intentional, and deliberate. Meaning, slow. As such, you may prefer to fork the codebase for your own needs. We will not accept any contributions that modify the text of the application (but, thank you in advance for pointing out any typos).
+
+Note: Everything in the `docs` folder can be ignored by you, the reviewer, but it's not excluded in `.gitignore` because that's where gh pages loads pages from.
 
 ## Installation
 
@@ -32,11 +36,17 @@ Install dependencies:
 
 `yarn dev`
 
-### Building
+### Building and deploying
 
 `yarn export`
 
-This will put a static version of the site in `out/`.
+This will put a static version of the site in `docs/`.
+
+Commit the changes and push them up. Go through the PR process as needed.
+
+When the PR is merged, GitHub Pages will auto update. Changes are deployed from the `master` branch.
+
+[This guide](https://github.com/zeit/next.js/wiki/Deploying-a-Next.js-app-into-GitHub-Pages) was used to help figure out how to deploy to GitHub pages.
 
 ## Future work
 
